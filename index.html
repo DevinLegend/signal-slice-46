@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#070A12" />
+    <title>SIGNAL SLICE</title>
+    <script type="module" crossorigin src="./assets/index-Cr5nRleB.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index--jGuTno_.css">
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="game" width="1280" height="720" aria-label="SIGNAL SLICE"></canvas>
+      <div id="touch" hidden>
+        <div class="cluster left">
+          <div class="move">
+            <button type="button" data-k="left" aria-label="Move left">◀</button>
+            <button type="button" data-k="right" aria-label="Move right">▶</button>
+          </div>
+          <button type="button" class="drop" data-k="down" aria-label="Drop package">DROP</button>
+        </div>
+        <div class="cluster right">
+          <button type="button" data-k="special" aria-label="Special">SP</button>
+          <button type="button" data-k="attack" aria-label="Attack">ATK</button>
+          <button type="button" class="jump" data-k="jump" aria-label="Jump">JUMP</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
